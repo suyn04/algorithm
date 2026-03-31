@@ -17,7 +17,7 @@
 // }
 
 // 답변 3
-// reduce 사용
+// reduce 사용 (보통 배열 합 구할 때 사용)
 function solution(day, arr) {
     return arr.reduce((count, v) => {
         return v % 10 === day ? count + 1 : count;
